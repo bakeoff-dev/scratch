@@ -1,0 +1,11 @@
+# Bakeoff config. See https://github.com/bakeoff-dev/bakeoff#config
+test: bun test
+# lint: bun run lint
+# typecheck: bunx tsc --noEmit
+agents: [claude]
+budget_usd: 3
+timeout: 20m
+ci_timeout: 10m
+# hidden_tests:
+#   dest: tests/hidden
+#   command: bun test tests/hidden
