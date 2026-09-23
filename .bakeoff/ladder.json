@@ -4,13 +4,13 @@
     "claude:claude-sonnet-5": {
       "driver": "claude",
       "model": "claude-sonnet-5",
-      "mu": 26.34767860850907,
-      "sigma": 7.612772858011743,
-      "rating": 1140,
-      "races": 3,
-      "wins": 2,
-      "avgCostUsd": 0.26212399999999997,
-      "avgDurationMs": 66111,
+      "mu": 28.45064207720931,
+      "sigma": 7.385417304286355,
+      "rating": 1252,
+      "races": 4,
+      "wins": 3,
+      "avgCostUsd": 0.24806719999999996,
+      "avgDurationMs": 56741.5,
       "history": [
         {
           "runId": "20260923-p30e",
@@ -26,19 +26,24 @@
           "runId": "20260923-fptp",
           "at": "2026-09-23T03:05:24.591Z",
           "rating": 1140
+        },
+        {
+          "runId": "20260923-wf78",
+          "at": "2026-09-23T03:15:35.626Z",
+          "rating": 1252
         }
       ]
     },
     "codex:gpt-6-luna": {
       "driver": "codex",
       "model": "gpt-6-luna",
-      "mu": 23.65232139149093,
-      "sigma": 7.612772858011743,
-      "rating": 1033,
-      "races": 3,
+      "mu": 21.54935792279069,
+      "sigma": 7.385417304286355,
+      "rating": 976,
+      "races": 4,
       "wins": 1,
-      "avgCostUsd": 0.0036273,
-      "avgDurationMs": 41287.666666666664,
+      "avgCostUsd": 0.00321944,
+      "avgDurationMs": 36838.5,
       "history": [
         {
           "runId": "20260923-p30e",
@@ -54,6 +59,16 @@
           "runId": "20260923-fptp",
           "at": "2026-09-23T03:05:24.591Z",
           "rating": 1033
+        },
+        {
+          "runId": "20260923-wf78",
+          "at": "2026-09-23T03:15:35.626Z",
+          "rating": 976
+        },
+        {
+          "runId": "20260923-eyw1",
+          "at": "2026-09-23T03:16:56.633Z",
+          "rating": 976
         }
       ]
     }
