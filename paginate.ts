@@ -1,3 +1,3 @@
 export function paginate<T>(items: T[], page: number, size: number): T[] {
-  return items.slice((page - 1) * size, page * size + 1); // off by one
+  return items.slice((page - 1) * size, page * size);
 }
