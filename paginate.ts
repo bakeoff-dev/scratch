@@ -1,3 +1,8 @@
+export function pageSlice(page: number, size: number): { start: number; end: number } {
+  return { start: (page - 1) * size, end: page * size };
+}
+
 export function paginate<T>(items: T[], page: number, size: number): T[] {
-  return items.slice((page - 1) * size, page * size);
+  const { start, end } = pageSlice(page, size);
+  return items.slice(start, end);
 }
